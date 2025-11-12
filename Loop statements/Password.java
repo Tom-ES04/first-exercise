@@ -8,10 +8,10 @@ public class Password {
         String input = tom.nextLine();
 
         while (!input.equals(password)) {
-            System.out.println("Wo.");
-            System.out.print("Nhap mat khau: ");
+            System.out.println("Worng password!! Try again.");
+            System.out.print("Enter your password: ");
             input = tom.nextLine();
         }
-        System.out.println("");
+        System.out.println("Correct password. Access granted.");
     }
 }
